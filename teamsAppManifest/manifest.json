@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.13/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.13",
+  "version": "1.0.0",
+  "id": "eb3d1eb6-5c5a-42ae-a45a-4683385665a3",
+  "packageName": "com.communityinsights.bot",
+  "name": {
+    "short": "CommunityInsightsBot",
+    "full": "Community Insights Feedback Bot"
+  },
+  "description": {
+    "short": "Extracts pain points from GitHub issues.",
+    "full": "A smart AI bot that connects to GitHub and extracts developer pain points using GPT-4o."
+  },
+  "developer": {
+    "name": "Shivani Chaudhary",
+    "websiteUrl": "https://example.com",
+    "privacyUrl": "https://example.com/privacy",
+    "termsOfUseUrl": "https://example.com/terms"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#00A0A0",
+  "bots": [
+    {
+      "botId": "eb3d1eb6-5c5a-42ae-a45a-4683385665a3",
+      "scopes": ["personal"],
+      "supportsFiles": false,
+      "isNotificationOnly": false
+    }
+  ],
+  "permissions": ["identity", "messageTeamMembers"],
+  "validDomains": ["*.ngrok.io"]
+}
