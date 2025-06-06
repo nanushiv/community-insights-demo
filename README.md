@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # community-insights-demo
 Teams AI assignment
 =======
@@ -49,7 +48,6 @@ COMMUNITYINSIGHTSBOT/
 ├── bot/
 │ ├── bot.ts
 │ ├── index.ts
-│ └── readme
 ├── node_modules/
 ├── src/
 │ ├── aiProcessor.ts
@@ -64,6 +62,8 @@ COMMUNITYINSIGHTSBOT/
 ├── package.json
 ├── testGithub.ts
 └── tsconfig.json
+└── README.md
+
 
 
 ----------------------------
@@ -101,4 +101,3 @@ npx ts-node bot/index.ts
   Local bot (with ngrok): visit public URL
 
   Microsoft Teams (via dev portal upload)
->>>>>>> c210702 (📦 Removed node_modules and updated .gitignore)
